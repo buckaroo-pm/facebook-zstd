@@ -41,3 +41,8 @@ _zstdbench/
 .DS_Store
 googletest/
 *.d
+
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl

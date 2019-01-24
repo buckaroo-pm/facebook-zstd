@@ -1,7 +1,7 @@
 cxx_binary(
     name='zstd',
-    headers=glob(['*.h'], excludes=['datagen.h', 'platform.h', 'util.h']),
-    srcs=glob(['*.c'], excludes=['datagen.c']),
+    headers=glob(['*.h'], exclude=['datagen.h', 'platform.h', 'util.h']),
+    srcs=glob(['*.c'], exclude=['datagen.c']),
     deps=[
         ':datagen',
         ':util',

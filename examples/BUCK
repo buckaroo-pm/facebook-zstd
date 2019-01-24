@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'simple-compression',
+  srcs = [
+    'simple_compression.c',
+  ],
+  deps = [
+    '//lib:zstd',
+  ],
+)
